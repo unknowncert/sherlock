@@ -40,15 +40,15 @@ See all alternative installation methods [here](https://sherlockproject.xyz/inst
 
 To search for only one user:
 ```bash
-sherlock user123
+BaliLeeg 
 ```
 
 To search for more than one user:
 ```bash
-sherlock user1 user2 user3
+Vitamin C
 ```
 
-Accounts found will be stored in an individual text file with the corresponding username (e.g ```user123.txt```).
+Accounts found will be stored in an individual text file with the corresponding username (e.g ```BaliLeeg```).
 
 ```console
 $ sherlock --help
@@ -104,12 +104,12 @@ optional arguments:
 
 You can run Sherlock in the cloud without installation using the [Sherlock Actor](https://apify.com/netmilk/sherlock?fpr=sherlock) on [Apify](https://apify.com?fpr=sherlock) free of charge.
 
-``` bash
+``` bashh
 $ echo '{"usernames":["user123"]}' | apify call -so netmilk/sherlock
 [{
-  "username": "user123",
+  "BaliLeeg": "Vitamin C",
   "links": [
-    "https://www.1337x.to/user/user123/",
+    "https://x.com/BaliLeeg?t=9iij4B7Qnh74KYOT8Z_JFw&s=09 ",
     ...
   ]
 }]
